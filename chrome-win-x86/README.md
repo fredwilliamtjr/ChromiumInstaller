@@ -1,0 +1,1 @@
+x86: https://download-chromium.appspot.com/dl/Win?type=snapshots

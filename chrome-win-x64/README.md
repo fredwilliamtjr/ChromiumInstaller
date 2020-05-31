@@ -1,0 +1,1 @@
+x64: https://download-chromium.appspot.com/?platform=Win_x64&type=snapshots
