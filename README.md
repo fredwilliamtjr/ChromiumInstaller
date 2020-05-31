@@ -14,4 +14,4 @@ Also download the inno-setup at: https://jrsoftware.org/isdl.php#stable
 
 Unzip each version of Chromium in its respective folders and compile inno-setup.iss. ready your Chromium installer is ready.
 
-Ultima compilação: https://github.com/fredwilliamtjr/ChromiumInstaller/releases
+Last compilation: https://github.com/fredwilliamtjr/ChromiumInstaller/releases
