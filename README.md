@@ -1,4 +1,4 @@
-# Chromium-Installer
+# Chromium Installer
 
 Chromium Installer was based on the repository: https://sourceforge.net/projects/crinstaller
 
