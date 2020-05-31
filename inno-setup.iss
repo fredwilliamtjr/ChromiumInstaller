@@ -37,10 +37,9 @@ Source:chrome-win-x86\*; DestDir: {app}; Flags: recursesubdirs; Check: not IsWin
 
 [Icons]
 Name: "{commondesktop}\Chromium Browser"; Tasks: shortcuts\desktop; Filename: "{app}\chrome.exe"; 
-Name: "{commonstartmenu}\Chromium Browser"; Tasks: shortcuts\startmenu; Filename: "{app}\chrome.exe"; Parameters: "--ppapi-flash-version=0.0.156 --ppapi-flash-path=""{app}\plugins\pepflashplayer32_0_0_156.dll"""
+Name: "{commonstartmenu}\Chromium Browser"; Tasks: shortcuts\startmenu; Filename: "{app}\chrome.exe";
 
 [Registry]
-
 ; API key for certain features provided by google (e.g. account, translation, ...)
 Root: HKLM; Subkey: "SYSTEM\CurrentControlSet\Control\Session Manager\Environment"; ValueType: string; ValueName: "GOOGLE_API_KEY"; ValueData: "AIzaSyDJD3V3FQfT4IijkFIR5OLTWHPeqsqnMag"; Flags: createvalueifdoesntexist uninsdeletevalue
 Root: HKLM; Subkey: "SYSTEM\CurrentControlSet\Control\Session Manager\Environment"; ValueType: string; ValueName: "GOOGLE_DEFAULT_CLIENT_ID"; ValueData: "334183695846-l6k6ruadkhrjq000qeaadedterlskoom.apps.googleusercontent.com"; Flags: createvalueifdoesntexist uninsdeletevalue
